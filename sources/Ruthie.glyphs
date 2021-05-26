@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "b.\012b,\012e.\012e,\012f.\012f,\012¿f\012f?\012f!\012g.\012g,\012j.\012j,\012k/endash \012o.\012o,\012p.\012p,\012q.\012r.\012r,\012r-\012s.\012s,\012s-\012t-\012v.\012v,\012w.\012w,\012y.\012y,\012y-y\012A-A\012D.\012D,\012F.\012F,\012F;\012F:\012F-\012J.\012J,\012J;\012J:\012J-J\012K-\012-M\012O.\012O,\012P.\012P,\012P-\012R-\012T.\012T,\012T;\012T:\012T-T\012U.\012U,\012U-\012V.\012V,\012V;\012V:\012V-V\012¡V\012W.\012W,\012W;\012W:\012W-W\012X-X\012Y.\012Y,\012Y;\012Y:\012Y-Y\012-Z\012\012",
 "Ac\012Ad\012Ae\012Ag\012Ao\012Aq\012As\012At\012Au\012Av\012Aw\012Ay\012Bv\012Bw\012Bx\012By\012Bz\012Ca\012Cc\012Cd\012Ce\012Co\012Cv\012Cw\012Cy\012Ev\012Ew\012Ex\012Ey\012Ez\012Fa\012Fc\012Fd\012Fe\012Ff\012Fg\012Fm\012Fn\012Fo\012Fq\012Fs\012Ft\012Fu\012Fv\012Fw\012Fx\012Fy\012Fz\012Ja\012Jc\012Jd\012Je\012Jg\012Jo\012Jq\012Ka\012Kc\012Kd\012Ke\012Kg\012Ko\012Kq\012Ks\012Kt\012Ku\012Kv\012Kw\012Ky\012Lc\012Ld\012Le\012Lg\012Lf\012Lo\012Lq\012Lt\012Lu\012Lv\012Lw\012Lx\012Pa\012Pc\012Pd\012Pe\012Pg\012Po\012Pq\012Ps\012Pt\012Pu\012Pv\012Pw\012Px\012Py\012Pz\012Qj\012Ra\012Rc\012Rd\012Re\012Rg\012Ro\012Rq\012Rt\012Ru\012Rv\012Rw\012Rx\012Ry\012Sv\012Sw\012Sx\012Sy\012Ta\012Tc\012Td\012Te\012Tg\012Tn\012To\012Tq\012Ts\012Tu\012Tv\012Tw\012Tx\012Ty\012Tz\012Ua\012Uc\012Ud\012Ue\012Ug\012Uo\012Uq\012Uv\012Uw\012Ux\012Uy\012Uz\012Va\012Vc\012Vd\012Ve\012Vg\012Vn\012Vo\012Vp\012Vq\012Vr\012Vs\012Vu\012Vv\012Vw\012Vx\012Vy\012Vz\012Wa\012Wc\012Wd\012We\012Wg\012Wn\012Wo\012Wp\012Wq\012Wr\012Ws\012Wu\012Wv\012Ww\012Wx\012Wy\012Wz\012Xc\012Xd\012Xe\012Xg\012Xo\012Xq\012Xu\012Xv\012Xw\012Xy\012Ya\012Yc\012Yd\012Ye\012Yg\012Yn\012Yo\012Yq\012Ys\012Yt\012Yu\012Yv\012Yw\012Yx\012Yy\012Yz\012Zv\012Zw\012Zy\012",
@@ -15,7 +15,11 @@ DisplayStrings = (
 "/jdotless",
 "O/Ocircumflexacute",
 "/acutecomb.case O/Ohorn/Ohornacute",
-"/Odotbelow"
+"/Odotbelow",
+"/.notdef",
+"/space/nbspace",
+murcielagonpdb,
+"Ø"
 );
 classes = (
 {
@@ -24,23 +28,19 @@ code = "Scaron Yacute Thorn Lslash Zcaron A B C D E F G H I J K L M N O P Q R S 
 name = Uppercase;
 }
 );
-copyright = "Copyright © 2014 by Robert E. Leuschke. All rights reserved.";
+copyright = "Copyright 2014 The Ruthie Project Authors (https://github.com/googlefonts/windsong)";
 customParameters = (
 {
-name = description;
-value = "©2003-2014 by Robert E. Leuschke. All rights reserved.";
-},
-{
-name = trademark;
-value = "Ruthie-ROB is a trademark of Robert E. Leuschke.";
-},
-{
 name = licenseURL;
-value = "http://www.typesetit.com/license.html";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "TypeSETit\012End User's License Agreement\012\012Notice to user: By installing this font on your computer, you accept all the terms and conditions of this agreement. If you do not agree with the terms and conditions of this Agreement, destroy the original copies of the Font Software, and cease all use of the Font Software.\012This agreement pertains to software program formats which include one or more of the following:\012A) \"Outline Fonts\" (PostScriptTM file for Macintosh) B) \"Bitmap Fonts\" (related documentation and data which works in combination with the PostScriptTM file) C) \"TrueType Fonts\" (Suitcase file, or TTF WindowsTM file) D) \"OpenType Fonts\" (for use on Windows, Macintosh or Linux Operating Systems)\012This software contains metric information, digitally encoded machine readable Typeface programs. Listed items A through D underlined above are mutually referred to as \"the Font Software.\" In return for acquiring a license to use the Font Software and documentation, you agree to the following terms and conditions:\0121. USAGE. You agree that you will use the the Font Software to reproduce and display typefaces solely for the customary purposes of printing on devices located at a specific and singular local premise. The maximum number of simultaneous users is specified in the applicable receipt.\0122. Proprietary Rights and obligations. The structure and organization of the Font Software are the valuable and exclusive property of Robert E. Leuschke and his suppliers and distributors. You will not make nor have made, nor permit to be made, any copies of the Font Software or any portions thereof, except one (1) copy solely for backup purposes or such copies as are necessary for the installation of the Font Software in accordance with the terms of this Agreement. Any copies of the Font Software shall contain the same proprietary notices which are contained in or on the Font Software. You agree not to modify, adapt, translate, manipulate, change, reverse engineer, decompile, disassemble, or create derivative works based upon the design of the Font Software. Trademarks shall be used in accordance with accepted trademark practice, including identification of trademark owners name. a) You may embed copies of the font software into your electronic documents for the purpose of printing and viewing the document. No other embedding rights are implied or permitted under this license. b) Access to the Font Software by third parties via access through internet connection is prohibited, unless a separate written agreement has been negotiated.\0123. Assignment. You may not assign your rights under this agreement to a third party. Should you prefer to terminate this Agreement, all copies of the Font Software must be transferred or returned to Robert E. Leuschke, or destroyed. Except as set forth by the above, you may not assign your rights under this Agreement or rent, lease, loan, distribute or otherwise transfer the Font Software. You agree that the Font Software is for use exclusively in accordance with the sovereign laws of the United States of America and will not be shipped, transferred, or exported into any country or used in any manner prohibited by the laws of the United States of America and by the United States Export Administration Act.\0124. No Other Rights. Robert E. Leuschke and his suppliers and distributors retain title and ownership of the Font Software, the media upon which it is recorded, and all subsequent copies of the Font Software, regardless of the form or media in or upon which the original and other copies may exist. Except as stated above, this Agreement does not grant you any rights to intellectual property rights in the Font Software. The use of any trademark as herein authorized does not give you any right of ownership in that trademark.\0125. Term. This license is effective until terminated. Robert E. Leuschke has the right to terminate your license immediately if you fail to comply with any term of this Agreement. Upon any such termination, you will destroy the original copies of the Font Software, and related documentation and cease all use of the Font Software and trademarks.\0126. Limited Warranty. (a) This Limited Warranty and any implied warranties are effective for a period of ninety (90) days from the date of delivery (\"Limited Warranty Period\") of the Font Software. Evidence of such Limited Warranty Period shall be determined by a copy of your receipt which shall accompany the Font Software. The Font Software shall be free from deliberate errors under normal use and service for a period of ninety (90) days after delivery to you. For the purposes of this agreement, an \"error\" shall be any flaw in the Font Format which causes improper reproduction when used properly on a computer device. You must do one of the following: Report all errors and return the Font Software to Robert E. Leuschke, or report all errors and destroy any and all of your copies of the Font Software. (b) If the software fails to comply with this warranty, Robert E. Leuschke at his option and discretion, will replace the Font Software media not meeting the warranty. No refunds shall be given for the Font Software. If failure of the Font Software media has resulted from accident, abuse, or misapplication of the product, then Robert E. Leuschke shall not be responsible for the replacement of the Font Software media under this Limited Warranty. (c) Robert E. Leuschke does not and cannot warranty the performance or results you may obtain by using the Font Software or its documentation. The foregoing states the sole and exclusive remedies for Robert E. Leuschke's breach of Warranty. Except for the foregoing Limited Warranty, Robert E. Leuschke makes no Warranties expressed or implied as to non-infringement of third party rights, or fitness for a particular purpose. (d) Some jurisdictions do not allow the exclusion of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to you. This warranty gives you specific legal rights concerning the Font Software and its usage. You may have other rights which vary from state to state and country to country. For further warranty information in regard to your local jurisdiction, contact legal representation in your area.\0127. Limit of liability. (a) You further agree that any such legal liabilities incurred by any parties resulting from a default of this Agreement shall be the sole responsibility of your company. (b) In no way will Robert E. Leuschke be liable to you for any consequential or incidental damages, including any lost profits or lost savings, or for any claim by any party. (c) Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.\0128. Governing Laws. This Agreement will be governed by the laws in force in the State of Missouri, in the United States of America, excluding the application of its conflicts of law rules. This Agreement will not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded.\0129. Entire Agreement. You acknowledge that you have read this agreement, understand it and that it is the complete and exclusive statement of your agreement with Robert E. Leuschke; which supersedes any prior agreement, oral or written, and any other communications between Robert E. Leuschke and you1 relating to the subject matter of this agreement; and that your obligations under this agreement shall inure to the benefit of Robert E. Leuschke's licensors whose rights are licensed under this agreement. No variation of the terms of this agreement will be enforceable against Robert E. Leuschke unless Robert E. Leuschke gives his expressed, Written and signed consent.\01210. Commitment. Robert E. Leuschke has made deliberate effort to provide within the Font Software the highest quality possible. Continued effort shall be made in good faith to provide such quality. For specific suggestions as to the improvement of the Font Software, please contact Robert E. Leuschke, at:\012 \012\012\012\012114 Long and Winding Roa";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = GOOG;
 },
 {
 name = panose;
@@ -66,7 +66,6 @@ value = (
 {
 name = fsType;
 value = (
-2
 );
 },
 {
@@ -80,6 +79,7 @@ value = (
 NULL,
 CR,
 space,
+nbspace,
 Scaron,
 scaron,
 Yacute,
@@ -265,7 +265,6 @@ approxequal,
 guillemotleft,
 guillemotright,
 ellipsis,
-nbspace,
 Agrave,
 Atilde,
 Otilde,
@@ -326,9 +325,13 @@ Delta,
 Euro,
 eth
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
-date = "2014-10-29 23:37:00 +0000";
+date = "2021-05-26 12:34:11 +0000";
 designer = "Robert E. Leuschke";
 designerURL = "http://www.typesetit.com";
 familyName = Ruthie;
@@ -396,7 +399,7 @@ fontMaster = (
 alignmentZones = (
 "{694, 19}",
 "{611, 8}",
-"{296, 29}",
+"{315, 15}",
 "{-4, -23}",
 "{-366, -22}"
 );
@@ -473,17 +476,37 @@ verticalStems = (
 );
 weightValue = 400;
 widthValue = 5;
-xHeight = 382;
+xHeight = 315;
 }
 );
 glyphs = (
 {
 glyphname = .notdef;
-lastChange = "2021-05-25 21:31:09 +0000";
+lastChange = "2021-05-26 12:36:46 +0000";
 layers = (
 {
 layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
-width = 950;
+paths = (
+{
+closed = 1;
+nodes = (
+"435 0 LINE",
+"435 750 LINE",
+"60 750 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"122 688 LINE",
+"372 688 LINE",
+"372 63 LINE",
+"122 63 LINE"
+);
+}
+);
+width = 495;
 }
 );
 note = .notdef;
@@ -522,6 +545,19 @@ width = 186;
 );
 note = space;
 unicode = 0020;
+},
+{
+glyphname = nbspace;
+lastChange = "2021-05-26 12:36:58 +0000";
+layers = (
+{
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 186;
+}
+);
+widthMetricsKey = space;
+note = nbspace;
+unicode = 00A0;
 },
 {
 glyphname = Scaron;
@@ -18139,8 +18175,9 @@ note = Aring;
 unicode = 00C5;
 },
 {
+color = 3;
 glyphname = Ccedilla;
-lastChange = "2021-05-25 21:28:54 +0000";
+lastChange = "2021-05-26 12:41:39 +0000";
 layers = (
 {
 components = (
@@ -23028,18 +23065,6 @@ note = ellipsis;
 unicode = 2026;
 },
 {
-glyphname = nbspace;
-lastChange = "2021-03-29 15:46:53 +0000";
-layers = (
-{
-layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
-width = 186;
-}
-);
-note = nbspace;
-unicode = 00A0;
-},
-{
 glyphname = Agrave;
 lastChange = "2021-05-25 21:28:43 +0000";
 layers = (
@@ -27271,6 +27296,27 @@ width = 681;
 unicode = 010C;
 },
 {
+color = 3;
+glyphname = Cdotaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = C;
+},
+{
+name = dotaccentcomb.case;
+transform = "{1, 0, 0, 1, 451, 212}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 681;
+}
+);
+unicode = 010A;
+},
+{
 glyphname = Dcaron;
 lastChange = "2021-05-25 21:08:06 +0000";
 layers = (
@@ -27551,6 +27597,27 @@ width = 931;
 unicode = 1EBC;
 },
 {
+color = 3;
+glyphname = Gbreve;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = G;
+},
+{
+name = brevecomb.case;
+transform = "{1, 0, 0, 1, 437, 211}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 681;
+}
+);
+unicode = 011E;
+},
+{
 glyphname = Gcommaaccent;
 lastChange = "2021-05-25 21:10:48 +0000";
 layers = (
@@ -27569,6 +27636,39 @@ width = 681;
 }
 );
 unicode = 0122;
+},
+{
+color = 3;
+glyphname = Gdotaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = G;
+},
+{
+name = dotaccentcomb.case;
+transform = "{1, 0, 0, 1, 475, 211}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 681;
+}
+);
+unicode = 0120;
+},
+{
+color = 3;
+glyphname = Hbar;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 600;
+}
+);
+unicode = 0126;
 },
 {
 glyphname = IJ;
@@ -27921,6 +28021,27 @@ width = 1101;
 );
 note = IJ;
 unicode = 0132;
+},
+{
+color = 3;
+glyphname = Idotaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = I;
+},
+{
+name = dotaccentcomb.case;
+transform = "{1, 0, 0, 1, 594, 194}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 631;
+}
+);
+unicode = 0130;
 },
 {
 glyphname = Idotbelow;
@@ -28875,6 +28996,27 @@ width = 634;
 unicode = 015E;
 },
 {
+color = 3;
+glyphname = Scommaaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = S;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 219, -84}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 634;
+}
+);
+unicode = 0218;
+},
+{
 glyphname = Germandbls;
 lastChange = "2021-03-29 15:46:53 +0000";
 layers = (
@@ -28953,6 +29095,27 @@ width = 543;
 }
 );
 unicode = 0162;
+},
+{
+color = 3;
+glyphname = Tcommaaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = T;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 98, -90}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 543;
+}
+);
+unicode = 021A;
 },
 {
 glyphname = Udotbelow;
@@ -29783,6 +29946,27 @@ width = 282;
 unicode = 010D;
 },
 {
+color = 3;
+glyphname = cdotaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = c;
+},
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 130, -48}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 282;
+}
+);
+unicode = 010B;
+},
+{
 glyphname = dcaron;
 lastChange = "2021-05-25 21:24:07 +0000";
 layers = (
@@ -30067,6 +30251,27 @@ width = 295;
 unicode = 1EBD;
 },
 {
+color = 3;
+glyphname = gbreve;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = g;
+},
+{
+name = brevecomb;
+transform = "{1, 0, 0, 1, 93, 18}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 324;
+}
+);
+unicode = 011F;
+},
+{
 glyphname = gcommaaccent;
 lastChange = "2021-05-25 21:24:43 +0000";
 layers = (
@@ -30085,6 +30290,27 @@ width = 324;
 }
 );
 unicode = 0123;
+},
+{
+color = 3;
+glyphname = gdotaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = g;
+},
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 131, 18}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 324;
+}
+);
+unicode = 0121;
 },
 {
 glyphname = hbar;
@@ -30319,6 +30545,26 @@ width = 118;
 );
 note = dotlessi;
 unicode = 0131;
+},
+{
+color = 3;
+glyphname = idotaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = idotless;
+},
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 52, -141}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 118;
+}
+);
 },
 {
 glyphname = idotbelow;
@@ -31439,6 +31685,27 @@ width = 254;
 unicode = 015F;
 },
 {
+color = 3;
+glyphname = scommaaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = s;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 14, 0}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 254;
+}
+);
+unicode = 0219;
+},
+{
 glyphname = tbar;
 lastChange = "2021-03-29 15:46:53 +0000";
 layers = (
@@ -31497,6 +31764,27 @@ width = 260;
 }
 );
 unicode = 0163;
+},
+{
+color = 3;
+glyphname = tcommaaccent;
+lastChange = "2021-05-26 12:41:51 +0000";
+layers = (
+{
+components = (
+{
+name = t;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 47, -16}";
+}
+);
+layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
+width = 260;
+}
+);
+unicode = 021B;
 },
 {
 glyphname = udotbelow;
@@ -34698,16 +34986,7 @@ width = 352;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = Ruthie;
-},
-{
-name = postscriptFontName;
-value = Ruthie;
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "89156F97-8AE0-4F29-8E8C-D321EE696556" = 1;
 };
@@ -34918,7 +35197,8 @@ Z = -155.8;
 };
 };
 manufacturer = "Robert E. Leuschke";
+manufacturerURL = "http://www.typesetit.com";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
