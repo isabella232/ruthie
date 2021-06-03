@@ -80,7 +80,8 @@ U,
 "/circumflexcomb.case.vi/circumflexcomb_acutecomb.case",
 "/tildecomb.case.vi/circumflexcomb.case.vi/circumflexcomb_tildecomb.case",
 "/dcroat úng/space/dcroat ó/space là",
-"/Ytilde"
+"/Ytilde",
+"/dotbelowcomb/edotbelow"
 );
 classes = (
 {
@@ -32905,7 +32906,7 @@ unicode = 031B;
 },
 {
 glyphname = dotbelowcomb;
-lastChange = "2021-06-03 10:08:43 +0000";
+lastChange = "2021-06-03 10:17:47 +0000";
 layers = (
 {
 anchors = (
@@ -32921,7 +32922,7 @@ position = "{67, -122}";
 components = (
 {
 name = dotaccent;
-transform = "{1.02952, 0, 0, 0.85323, -12, -510}";
+transform = "{1.02952, 0, 0, 0.85323, -12, -534}";
 }
 );
 layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
