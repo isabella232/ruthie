@@ -78,7 +78,9 @@ U,
 "/circumflexcomb/circumflexcomb_acutecomb/idotaccent",
 "/tildecomb.case.vi/brevecomb_tildecomb.case",
 "/circumflexcomb.case.vi/circumflexcomb_acutecomb.case",
-"/tildecomb.case.vi/circumflexcomb.case.vi/circumflexcomb_tildecomb.case"
+"/tildecomb.case.vi/circumflexcomb.case.vi/circumflexcomb_tildecomb.case",
+"/dcroat úng/space/dcroat ó/space là",
+"/Ytilde"
 );
 classes = (
 {
@@ -29082,7 +29084,7 @@ unicode = 010F;
 },
 {
 glyphname = dcroat;
-lastChange = "2021-03-29 15:46:53 +0000";
+lastChange = "2021-06-03 10:15:26 +0000";
 layers = (
 {
 components = (
@@ -29095,7 +29097,7 @@ transform = "{1.1425, 0, 0, 1.39108, 155, 256}";
 }
 );
 layerId = "89156F97-8AE0-4F29-8E8C-D321EE696556";
-width = 444;
+width = 371;
 }
 );
 unicode = 0111;
