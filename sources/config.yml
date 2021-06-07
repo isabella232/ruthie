@@ -2,4 +2,4 @@ sources:
   - Ruthie.glyphs
 familyName: "Ruthie"
 buildVariable: false
-# autohintTTF: false
+autohintTTF: false
